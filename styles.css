@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+header {
+    background-color: rgb(36, 161, 186);
+    padding: 20px 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+#current-page {
+    transform:scale(1.2);
+    text-decoration: underline;
+}
+
+body {
+background-color: rgb(12, 51, 65);
+}
+
+@media (max-width: 600px) {
+    nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+}
