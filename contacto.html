@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -24,26 +26,32 @@
             <a id="current-page" href="contacto.html">Contacto</a>
         </nav>
     </header>
-    <main>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Contactame para saber mas de mi o si estas interesado en contratarme</p>
-            <form action="" id="grid-contacto">
-                <input type="text" name="nombre" id="nombre" class="input-formulario" placeholder="Nombre Completo" required>
-                <input type="mail" name="correo" id="correo" class="input-formulario" placeholder="correoclectronico@correo.net" required>
-                <input type="text" name="asunto" id="asunto" class="input-formulario" placeholder="Asunto" required>
-                <textarea name="contenido" id="contenido" class="input-formulario" placeholder="Mensaje" rows="10" required></textarea>
-                <input type="submit" id="enviar">
-            </form>
-        </section>
+    <main id="contacto">
+        <div class="filtro-color">
+            <section>
+                <h2>Contacto</h2>
+                <!-- <p>Contactame para saber mas de mi o si estas interesado en contratarme</p> -->
+                <form action="" id="grid-contacto">
+                    <input type="text" name="nombre" id="nombre" class="input-formulario" placeholder="Nombre Completo"
+                        required>
+                    <input type="email" name="correo" id="correo" class="input-formulario"
+                        placeholder="correoclectronico@correo.net" required>
+                    <input type="text" name="asunto" id="asunto" class="input-formulario" placeholder="Asunto" required>
+                    <textarea name="contenido" id="contenido" class="input-formulario" placeholder="Mensaje" rows="10"
+                        required></textarea>
+                    <input type="submit" id="enviar">
+                </form>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="https://github.com/YerBrown" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/yeray-moreno-a71512140/" target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+                <p id="copyright">&copy;Yeray Moreno </p>
+            </footer>
+        </div>
     </main>
-    <footer>
-        <ul>
-            <li><a href="https://github.com/YerBrown" target="_blank">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/yeray-moreno-a71512140/" target="_blank">LinkedIn</a></li>
-        </ul>
-        <p id="copyright">&copy;Yeray Moreno </p>
-    </footer>
 </body>
 
 </html>

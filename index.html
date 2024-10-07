@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -24,23 +26,39 @@
             <a href="contacto.html">Contacto</a>
         </nav>
     </header>
-    <main>
-        <section id="bienvenida">
-            <h2>Hola soy Yeray</h2>
-            <h3>Un desarrollador de videojuegos y aplicaciones web</h3>
-        </section>
-        <section>
-            <h3>En esta pagina podras aprender sobre mi carrera en el mundo de la programacion </h3>
-        </section>
+    <main id="pagina-principal">
+        <div class="filtro-color">
+            <section id="bienvenida">
+                <grid>
+                    <h2>Hola soy Yeray</h2>
+                    <h3>Desarrollador de videojuegos y aplicaciones web</h3>
+                </grid>
+            </section>
+            <section>
+                <div id="paginas">
+                    <a href="biografia.html">
+                        <h3>Biografia</h3>
+                        <img src="./imagenes/biografia.png" alt="icono biografia">
+                    </a>
+                    <a href="portfolio.html">
+                        <h3>Portfolio</h3>
+                        <img src="./imagenes/carpeta-del-juego.png" alt="icono portfolio">
+                    </a>
+                    <a href="contacto.html">
+                        <h3>Contacto</h3>
+                        <img src="./imagenes/correo-electronico.png" alt="icono">
+                    </a>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="https://github.com/YerBrown" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/yeray-moreno-a71512140/" target="_blank">LinkedIn</a></li>
+                </ul>
+                <p id="copyright">&copy;Yeray Moreno </p>
+            </footer>
+        </div>
     </main>
-    <footer>
-        <ul>
-            <li><a href="https://github.com/YerBrown" target="_blank">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/yeray-moreno-a71512140/" target="_blank">LinkedIn</a></li>
-            <li>yeraymorenogarcia0@gmail.com</li>
-        </ul>
-        <p id="copyright">&copy;Yeray Moreno </p>
-    </footer>
 </body>
 
 </html>
